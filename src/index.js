@@ -1,15 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import UserAccountInfo from "./components/useraccountinfo";
-import Tab from "./components/tab";
+import TryTab from "./components/trytab";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Tab />
+    <TryTab />
   </React.StrictMode>
 );
 
