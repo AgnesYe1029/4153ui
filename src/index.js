@@ -4,11 +4,12 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import UserAccountInfo from "./components/useraccountinfo";
+import Tab from "./components/tab";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <UserAccountInfo />
+    <Tab />
   </React.StrictMode>
 );
 
